@@ -52,8 +52,8 @@ class App extends Component {
     
         const raw = JSON.stringify({
           "user_app_id": {
-            "user_id": "squezer",
-            "app_id": "testreact"
+            "user_id": "USERNAME",
+            "app_id": "APP_NAME"
           },
           "inputs": [
             {
@@ -70,7 +70,7 @@ class App extends Component {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
-            'Authorization': 'Key ' + '788ee8d144a8423d9a28eaf97b18b52e'
+            'Authorization': 'Key ' + 'YOUR PAT HERE'
           },
           body: raw
         };
